@@ -36,12 +36,17 @@
     <p>Unsere Referenzprojekte zeigen, wie cofaktor pharmazeutische Unternehmen mit maßgeschneiderten Lösungen in Market Access, Medical Communications und Patient Engagement unterstützt. Entdecken Sie ausgewählte Projekte und filtern Sie nach Bereich, Indikation oder Format.</p>
 
     <div class="filter-bar">
-      <label for="filter-brand">Bereich:</label>
+      <label for="filter-brand">Brand:</label>
       <select id="filter-brand">
         <option value="">Alle</option>
         <option value="covalue">co.value</option>
         <option value="comedical">co.medical</option>
         <option value="copatient">co.patient</option>
+      </select>
+
+      <label for="filter-service">Leistung:</label>
+      <select id="filter-service">
+        <option value="">Alle Leistungen</option>
       </select>
 
       <label for="filter-indikation">Indikation:</label>
@@ -70,7 +75,7 @@
       </select>
     </div>
 
-    <div id="ref-filter-info"></div>
+    <div class="filter-chips" id="filter-chips"></div>
 
     <div id="results">
       <div id="ref-grid" class="ref-grid"></div>
