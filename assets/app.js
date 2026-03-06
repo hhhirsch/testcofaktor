@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
       children: [
         { label: 'Überblick', href: '/market-access/index.html' },
         { label: 'Beratung beim G-BA', href: '/market-access/gba-beratung.html' },
-        { label: 'Dossiers &amp; Nutzenbewertung', href: '/market-access/dossiers-und-nutzenbewertung.html' },
+        { label: 'Dossiers & Nutzenbewertung', href: '/market-access/dossiers-und-nutzenbewertung.html' },
         { label: 'Post Submission Support', href: '/market-access/post-submission-support.html' }
       ]
     },
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function () {
     { title: 'Adhärenzprogramm Immunologie',   desc: 'Entwicklung eines digitalen Adhärenzprogramms für Patienten mit chronischer Immunerkrankung.',            brand: 'copatient', indikation: 'Immunologie',         format: 'Adhärenzprogramm',   services: ['copatient_adhaerenzkonzepte'] },
     { title: 'Medical Graphics Infografik',    desc: 'Erstellung einer wissenschaftlichen Infografik zu einem Wirkmechanismus.',                                 brand: 'comedical', indikation: 'Onkologie',           format: 'Infografik',         services: ['comedical_medical_graphics'] },
     { title: 'Post Submission Support',        desc: 'Begleitung des Post-Submission-Prozesses nach Dossiereinreichung.',                                        brand: 'covalue',   indikation: 'Neurologie',          format: 'Beratungspaket',     services: ['covalue_post_submission_support'] },
-    { title: 'Patientenmedien Diabetologie',   desc: 'Erstellung von Patientenmedien (Video &amp; Print) für Diabetes-Patienten.',                              brand: 'copatient', indikation: 'Diabetologie',        format: 'Patient-Broschüre',  services: ['copatient_medien_fuer_patienten'] }
+    { title: 'Patientenmedien Diabetologie',   desc: 'Erstellung von Patientenmedien (Video & Print) für Diabetes-Patienten.',                              brand: 'copatient', indikation: 'Diabetologie',        format: 'Patient-Broschüre',  services: ['copatient_medien_fuer_patienten'] }
   ];
 
   var refGrid = document.getElementById('ref-grid');
